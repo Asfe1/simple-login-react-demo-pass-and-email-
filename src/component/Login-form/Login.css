@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.background{
+    background-image:url('../images/Group\ 51.png'),url('../images/Group\ 52.png'),radial-gradient(99.87% 413.14% at 0% 4.98%, #443453 0%, #232323 28.23%, #252425 100%);
+    width: 100%;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    background-size: 70px,400px,1060px 750px;
+    background-position:193px 96% ,20% 30%,0 ;
+    
+}
+
+#form{
+    font-family:Roboto;
+    border-radius: 7px;
+    padding:0 35px ;
+    margin-top:52px ;
+    margin-bottom: 49px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+}
+
+#form hr{
+    width: 100px;
+}
+#logo{
+    margin-top:40px;
+    margin-bottom: 15px;
+    height: 100px;
+    width: 100px;
+}
+#p1{
+    color: #473558;
+    font-size: 20px;
+}
+
+#form input{
+   width: 60%;
+   border-radius:5px ;
+   border: 2px solid #666666;
+   margin: 8px;
+   padding: 5px ;
+}
+#form button{
+    width:  60%;
+    background-color:#3E489A;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20PX;
+}
+#form a{
+    text-decoration: none;
+    
+}
+#f-pass{
+    display: none;
+}
+#f-pass small{
+    display: block;
+    color: red;
+    padding-left: 35%;
+    font-size: 14px;
+}
+
+#bottom-p1{
+    margin:30px 0;
+    color: #707070;
+}
+#bottom-p1 a{
+    text-decoration: none;
+    color: #09a7e6;
+    font-weight: 600;
+}
+#img1{
+    width: 49px;
+    margin:0px 20px ;
+}
+#img2{
+    width: 45px;
+    margin:0px 20px ;
+}
+
+#password-hint{
+    display: block;
+    color: rgb(95, 204, 95);
+}
